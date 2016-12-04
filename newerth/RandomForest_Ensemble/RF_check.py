@@ -1,4 +1,4 @@
-from multiprocessing import Pool, TimeoutError
+from multiprocessing import Pool
 import time
 import pickle
 import numpy as np
