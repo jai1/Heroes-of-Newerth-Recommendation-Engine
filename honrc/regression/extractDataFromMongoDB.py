@@ -9,7 +9,14 @@ db = client['wam-fall-2016'];
 matches = db.matchmodels
 numberOfRecordsIgnored = 0;
 
-NUM_OF_MATCHES = matches.count()
+for index, document in enumerate(matches.find()):
+    legionPlayers = document['teamOneHeroes'];
+    hellbournePlayers = document['teamTwoHeroes'];
+    if (len(legionPlayers) + len(hellbournePlayers)) != 10:
+        numberOfRecordsIgnored+=1;
+        continue
+
+NUM_OF_MATCHES = (matches.count() - numberOfRecordsIgnored)
 
 # index 0 - 248 => Legion
 # index 249 - 497 => Hellbourne
@@ -29,13 +36,14 @@ X = np.zeros((NUM_OF_MATCHES, NUM_OF_FEATURES), dtype=np.int8)
 # Initialize training output vector
 Y = np.zeros(NUM_OF_MATCHES, dtype=np.int8)
 
+numberOfRecordsIgnored = 0;
 for index, document in enumerate(matches.find()):
     legionPlayers = document['teamOneHeroes'];
     hellbournePlayers = document['teamTwoHeroes'];
     if (len(legionPlayers) + len(hellbournePlayers)) != 10:
-        numberOfRecordsIgnored+=1;
+        numberOfRecordsIgnored += 1;
         continue
-
+    index = index - numberOfRecordsIgnored
     Y[index] = 1 if document['winner'] == 1 else 0
 
     for heroId in legionPlayers:
