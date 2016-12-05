@@ -15,15 +15,15 @@ import numpy as np
 NUM_HEROES = 249
 NUM_FEATURES = NUM_HEROES*2
 percent_val = 100
+with open('evaluate_model_37782.pkl', 'r') as input_file:
+            model = pickle.load(input_file)
 
+## Calculates the distance between two vectors
 def my_distance(vec1,vec2):
     return np.sum(np.logical_and(vec1,vec2))
 
+## Calculates the list of weights and returns it
 def poly_weights_evaluate(distances):
-    '''Returns a list of weights given a polynomial weighting function'''
-    # distances = distances[0]
-    # weights = (distances * 0.1)
-    # weights = weights ** 15
     weights = np.power(np.multiply(distances[0], 0.1), 4)
     return np.array([weights])
 
@@ -116,11 +116,11 @@ NUM_MATCHES_5 = len(X5)
 NUM_MATCHES = len(X)
 print "NUmMatches",NUM_MATCHES
 
-if __name__ == '__main__':
-    print "whaaa?"
+def run():
+    # print "whaaa?"
     # with open('evaluate_model_50000.pkl', 'r') as input_file:
-    with open('evaluate_model_37782.pkl', 'r') as input_file:
-            model = pickle.load(input_file)
+    # with open('evaluate_model_37782.pkl', 'r') as input_file:
+    #         model = pickle.load(input_file)
     start_time = time.time()
 
     list_1 = []
@@ -181,3 +181,6 @@ if __name__ == '__main__':
     plt.axis([0,4400,0,100])
     plt.show()
 
+
+if __name__ == '__main__':
+    run()
