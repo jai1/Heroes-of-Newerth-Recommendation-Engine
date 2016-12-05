@@ -8,7 +8,6 @@ NUM_OF_HEROES = 249
 NUM_OF_FEATURES = NUM_OF_HEROES * 2
 
 def score(model, inputVector):
-    '''Score the query using the model, considering both radiant and dire teams.'''
     radiant_query = inputVector
     # Reverse doesn't work here
     dire_query = np.concatenate((radiant_query[NUM_OF_HEROES:NUM_OF_FEATURES], radiant_query[0:NUM_OF_HEROES]))

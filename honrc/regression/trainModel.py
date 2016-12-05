@@ -4,11 +4,11 @@ import numpy as np
 
 np.set_printoptions(threshold=np.inf)
 
-def train(X, Y, num_samples):
-    print('Training using data from %d matches...' % num_samples)
-    return LogisticRegression().fit(X[0:num_samples], Y[0:num_samples])
+def train(X, Y, num_of_samples):
+    print('Training using dataset of size = ' % num_of_samples)
+    return LogisticRegression().fit(X[0:num_of_samples], Y[0:num_of_samples])
 
-def main():
+def run():
     # Load preprocessed Data Set
     preprocessed = np.load('train.npz')
     X_train = preprocessed['X']
@@ -24,4 +24,4 @@ def main():
         pickle.dump(model, output_file)
 
 if __name__ == "__main__":
-    main()
+    run()
