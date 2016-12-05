@@ -5,7 +5,7 @@ import numpy as np
 np.set_printoptions(threshold=np.inf)
 
 def train(X, Y, num_of_samples):
-    print('Training using dataset of size = ' % num_of_samples)
+    print('Training using dataset of size = ', num_of_samples)
     return LogisticRegression().fit(X[0:num_of_samples], Y[0:num_of_samples])
 
 def run():

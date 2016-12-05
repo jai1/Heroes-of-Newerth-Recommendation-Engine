@@ -7,9 +7,7 @@ import matplotlib.pyplot as plt
 NUM_HEROES = 249
 NUM_FEATURES = NUM_HEROES*2
 percent_val = 100
-## Use the evaluate_model based on the options
-with open('evaluate_model__RF_37782.pkl', 'r') as input_file:
-    model = pickle.load(input_file)
+model = None
 
 def my_distance(vec1,vec2):
     return np.sum(np.logical_and(vec1,vec2))
@@ -68,10 +66,6 @@ def run_exp(X_val,Y_val, num_matches):
 
 # Import the test x matrix and Y vector
 # preprocessed = np.load('test_5669.npz')
-preprocessed = np.load('test.npz')
-
-X = preprocessed['X']
-Y = preprocessed['Y']
 
 # print len(X)
 # print "is tihs even being considered?"
@@ -192,4 +186,11 @@ def run():
     plt.show()
 
 if __name__ == '__main__':
+    ## Use the evaluate_model based on the options
+    with open('evaluate_model__RF_37782.pkl', 'r') as input_file:
+        model = pickle.load(input_file)
+    preprocessed = np.load('test.npz')
+
+    X = preprocessed['X']
+    Y = preprocessed['Y']
     run()

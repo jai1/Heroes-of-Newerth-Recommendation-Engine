@@ -15,8 +15,7 @@ import numpy as np
 NUM_HEROES = 249
 NUM_FEATURES = NUM_HEROES*2
 percent_val = 100
-with open('evaluate_model_37782.pkl', 'r') as input_file:
-            model = pickle.load(input_file)
+model = None
 
 ## Calculates the distance between two vectors
 def my_distance(vec1,vec2):
@@ -68,53 +67,6 @@ def final_run(X_val,Y_val, num_matches):
             # print "current_accuracy",current_accuracy
             # print accuracy_list,total_elements_list
     return correct_predictions
-
-
-# Import the test x matrix and Y vector
-print "before this?"
-preprocessed = np.load('test.npz')
-print "after this?"
-X = preprocessed['X']
-Y = preprocessed['Y']
-# print len(X)
-X = X[0:100]
-Y = Y[0:100]
-# print len(X)
-# print X[0:10000]
-# print "X",X[0]
-# print "is this even being considered?"
-X1 = X[0:20]
-X2 = X[20:40]
-X3 = X[40:60]
-X4 = X[60:80]
-X5 = X[80:100]
-
-Y1 = Y[0:20]
-Y2 = Y[20:40]
-Y3 = Y[40:60]
-Y4 = Y[60:80]
-Y5 = Y[80:100]
-
-# X1 = X[0:800]
-# X2 = X[800:1600]
-# X3 = X[1600:2400]
-# X4 = X[2400:3200]
-# X5 = X[3200:4000]
-#
-# Y1 = Y[0:800]
-# Y2 = Y[800:1600]
-# Y3 = Y[1600:2400]
-# Y4 = Y[2400:3200]
-# Y5 = Y[3200:4000]
-
-NUM_MATCHES_1 = len(X1)
-NUM_MATCHES_2 = len(X2)
-NUM_MATCHES_3 = len(X3)
-NUM_MATCHES_4 = len(X4)
-NUM_MATCHES_5 = len(X5)
-
-NUM_MATCHES = len(X)
-print "NUmMatches",NUM_MATCHES
 
 def run():
     # print "whaaa?"
@@ -183,4 +135,51 @@ def run():
 
 
 if __name__ == '__main__':
+    with open('evaluate_model_37782.pkl', 'r') as input_file:
+        model = pickle.load(input_file)
+    # Import the test x matrix and Y vector
+    print "before this?"
+    preprocessed = np.load('test.npz')
+    print "after this?"
+    X = preprocessed['X']
+    Y = preprocessed['Y']
+    # print len(X)
+    X = X[0:100]
+    Y = Y[0:100]
+    # print len(X)
+    # print X[0:10000]
+    # print "X",X[0]
+    # print "is this even being considered?"
+    X1 = X[0:20]
+    X2 = X[20:40]
+    X3 = X[40:60]
+    X4 = X[60:80]
+    X5 = X[80:100]
+
+    Y1 = Y[0:20]
+    Y2 = Y[20:40]
+    Y3 = Y[40:60]
+    Y4 = Y[60:80]
+    Y5 = Y[80:100]
+
+    # X1 = X[0:800]
+    # X2 = X[800:1600]
+    # X3 = X[1600:2400]
+    # X4 = X[2400:3200]
+    # X5 = X[3200:4000]
+    #
+    # Y1 = Y[0:800]
+    # Y2 = Y[800:1600]
+    # Y3 = Y[1600:2400]
+    # Y4 = Y[2400:3200]
+    # Y5 = Y[3200:4000]
+
+    NUM_MATCHES_1 = len(X1)
+    NUM_MATCHES_2 = len(X2)
+    NUM_MATCHES_3 = len(X3)
+    NUM_MATCHES_4 = len(X4)
+    NUM_MATCHES_5 = len(X5)
+
+    NUM_MATCHES = len(X)
+    print "NUmMatches", NUM_MATCHES
     run()
