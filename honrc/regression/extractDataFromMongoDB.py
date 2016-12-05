@@ -17,6 +17,7 @@ for index, document in enumerate(matches.find()):
         continue
 
 NUM_OF_MATCHES = (matches.count() - numberOfRecordsIgnored)
+NUM_OF_MATCHES = NUM_OF_MATCHES * 2
 
 # index 0 - 248 => Legion
 # index 249 - 497 => Hellbourne
@@ -45,12 +46,16 @@ for index, document in enumerate(matches.find()):
         continue
     index = index - numberOfRecordsIgnored
     Y[index] = 1 if document['winner'] == 1 else 0
+    Y[index + NUM_OF_MATCHES/2] = 1 if document['winner'] == 1 else 0
 
     for heroId in legionPlayers:
         X[index, int(heroId) - 1] = 1;
+        X[index + NUM_OF_MATCHES/2, int(heroId) - 1] = 1;
 
     for heroId in hellbournePlayers:
         X[index, NUM_OF_HEROES + int(heroId) - 1] = 1;
+        X[index + NUM_OF_MATCHES/2, NUM_OF_HEROES + int(heroId) - 1] = 1;
+
 
 print("Matches Stored = ", NUM_OF_MATCHES);
 # Most records are ignored since the players fled before the match ended
