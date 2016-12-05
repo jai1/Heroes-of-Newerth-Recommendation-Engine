@@ -61,7 +61,6 @@ Y_train = Y[indices[NUM_OF_MATCHES/10:NUM_OF_MATCHES]]
 X_test = X[indices[0:NUM_OF_MATCHES/10]]
 Y_test = Y[indices[0:NUM_OF_MATCHES/10]]
 
-
 np.savez_compressed('test.npz', X=X_test, Y=Y_test)
 np.savez_compressed('train.npz', X=X_train, Y=Y_train)
 

@@ -27,20 +27,78 @@
       <file leaf-file-name="logistic_regression.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/logistic_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="-119">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="performanceOfTestDataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="13" column="111" selection-start-line="13" selection-start-column="111" selection-end-line="13" selection-end-column="111" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learning_curve.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/learning_curve.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="78" column="24" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="performanceOfTestDataset.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py">
+      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/honrc/regression/plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="206">
+              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotaml/engine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="44" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotaml/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,8 +107,8 @@
       <file leaf-file-name="extractDataFromMongoDB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="-950">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -58,12 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trainModel.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="trainModel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/honrc/regression/trainModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="51" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="125">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,9 +142,11 @@
       <list>
         <option value="$PROJECT_DIR$/honrc/requirements.txt" />
         <option value="$PROJECT_DIR$/honrc/regression/preprocess.py" />
-        <option value="$PROJECT_DIR$/honrc/regression/trainModel.py" />
-        <option value="$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py" />
+        <option value="$PROJECT_DIR$/dotaml/logistic_regression/learning_curve.py" />
+        <option value="$PROJECT_DIR$/honrc/regression/plot.py" />
         <option value="$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py" />
+        <option value="$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py" />
+        <option value="$PROJECT_DIR$/honrc/regression/trainModel.py" />
       </list>
     </option>
   </component>
@@ -189,6 +251,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dotaml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logistic_regression" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -208,7 +288,25 @@
       <recent name="C:\cygwin64\home\jai1\machineLearning\honrc" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.plot">
+    <configuration default="false" name="plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/honrc/regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machineLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/honrc/regression/plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,6 +509,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.plot" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.plot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -469,7 +575,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/honrc/regression/trainModel.py</url>
-          <line>11</line>
+          <line>13</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dotaml/logistic_regression/logistic_regression.py</url>
@@ -481,7 +587,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -512,14 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/f1score.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
@@ -538,32 +636,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dotaml/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/learning_curve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="326">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/honrc/regression/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dotaml/logistic_regression/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-119">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="111" selection-start-line="13" selection-start-column="111" selection-end-line="13" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="-950">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -572,18 +704,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/honrc/regression/trainModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="51" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="125">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

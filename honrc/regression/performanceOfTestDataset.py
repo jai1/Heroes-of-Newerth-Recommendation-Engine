@@ -12,8 +12,6 @@ def score(model, inputVector):
     radiant_query = inputVector
     # Reverse doesn't work here
     dire_query = np.concatenate((radiant_query[NUM_OF_HEROES:NUM_OF_FEATURES], radiant_query[0:NUM_OF_HEROES]))
-    print("Radiant Query = ", radiant_query)
-    print("Dire Query = ", dire_query)
     rad_prob = model.predict_proba(radiant_query)[0][1]
     dire_prob = model.predict_proba(dire_query)[0][0]
     return (rad_prob + dire_prob) / 2
