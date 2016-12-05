@@ -16,7 +16,7 @@ def run():
     model = RandomForestClassifier(n_estimators=20).fit(X, Y)
 
     # Populate model pickle
-    with open('evaluate_model__RF_%d.pkl' % NUM_MATCHES, 'w') as output_file:
+    with open('evaluate_model__RF_%d.pkl' % NUM_MATCHES, 'wb') as output_file:
         pickle.dump(model, output_file)
 
 if __name__ == '__main__':

@@ -8,7 +8,9 @@ NUM_HEROES = 249
 NUM_FEATURES = NUM_HEROES*2
 percent_val = 100
 model = None
-
+X = None
+Y = None
+NUM_MATCHES = None
 def my_distance(vec1,vec2):
     return np.sum(np.logical_and(vec1,vec2))
 
@@ -46,7 +48,7 @@ def run_exp(X_val,Y_val, num_matches):
 
         result = 1 if prediction == Y_val[i] else 0
         correct_predictions += result
-        print "Current loop ended i-> ",i,"correct predictions",correct_predictions
+        print("Current loop ended i-> ",i,"correct predictions",correct_predictions)
         # print "Time till now", (time.time() - start_time)
         # count = count +1
         ## Calculating accuracy every
@@ -106,9 +108,6 @@ def run_exp(X_val,Y_val, num_matches):
 # NUM_MATCHES_3 = len(X3)
 # NUM_MATCHES_4 = len(X4)
 # NUM_MATCHES_5 = len(X5)
-
-NUM_MATCHES = len(X)
-print "NUmMatches",NUM_MATCHES
 
 def run():
 
@@ -176,7 +175,7 @@ def run():
     # print "final correct predictions:",final_correct_predictions
     # print "total correct predictions:",sum_correct_prediction
     # print "accuracy:", accuracy
-    print "Time Taken in seconds ", (time.time() - start_time)
+    print("Time Taken in seconds ", (time.time() - start_time))
 
     # print "acc",accuracy_list,"total_element",total_elements_list
 
@@ -187,10 +186,12 @@ def run():
 
 if __name__ == '__main__':
     ## Use the evaluate_model based on the options
-    with open('evaluate_model__RF_37782.pkl', 'r') as input_file:
+    with open('evaluate_model__RF_37782.pkl', 'rb') as input_file:
         model = pickle.load(input_file)
     preprocessed = np.load('test.npz')
 
     X = preprocessed['X']
     Y = preprocessed['Y']
+    NUM_MATCHES = len(X)
+    print("NUmMatches", NUM_MATCHES)
     run()

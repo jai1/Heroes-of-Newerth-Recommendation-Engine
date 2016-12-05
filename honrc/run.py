@@ -1,5 +1,3 @@
-
-
 ###########################Logistic Regression#####################################
 from regression import extractDataFromMongoDB
 from regression import trainModel
@@ -24,5 +22,6 @@ KNN_Check.run()
 from RandomForest_Ensemble import RandomForest
 from RandomForest_Ensemble import RF_check
 RandomForest.run()
-RF_check.run()
+# Commented since it runs in linux only since multiple processes are required
+# RF_check.run()
 ##################################################################################

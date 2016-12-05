@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ef5444a-74ec-433b-84c7-7c40a9f932ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/honrc/K_nearest_neighbors/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/honrc/regression/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/honrc/run.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/model.pkl" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/model.pkl" afterPath="$PROJECT_DIR$/honrc/model.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/model.pkl" afterPath="$PROJECT_DIR$/honrc/regression/model.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/machineLearning.iml" afterPath="$PROJECT_DIR$/.idea/machineLearning.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -14,13 +11,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/K_nearest_neighbors/KNN_Check.py" afterPath="$PROJECT_DIR$/honrc/K_nearest_neighbors/KNN_Check.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/K_nearest_neighbors/__init__.py" afterPath="$PROJECT_DIR$/honrc/K_nearest_neighbors/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/K_nearest_neighbors/test.npz" afterPath="$PROJECT_DIR$/honrc/K_nearest_neighbors/test.npz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/K_nearest_neighbors/train.npz" afterPath="$PROJECT_DIR$/honrc/K_nearest_neighbors/train.npz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/K_nearest_neighbors/train_evaluate.py" afterPath="$PROJECT_DIR$/honrc/K_nearest_neighbors/train_evaluate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/RF_check.py" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/RF_check.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/RandomForest.py" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/RandomForest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/__init__.py" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/test.npz" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/test.npz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/train.npz" afterPath="$PROJECT_DIR$/honrc/RandomForest_Ensemble/train.npz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/__init__.py" afterPath="$PROJECT_DIR$/honrc/regression/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py" afterPath="$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py" afterPath="$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/plot.py" afterPath="$PROJECT_DIR$/honrc/regression/plot.py" />
@@ -28,6 +28,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/train.npz" afterPath="$PROJECT_DIR$/honrc/regression/train.npz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/regression/trainModel.py" afterPath="$PROJECT_DIR$/honrc/regression/trainModel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/requirements.txt" afterPath="$PROJECT_DIR$/honrc/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/run.py" afterPath="$PROJECT_DIR$/honrc/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/test.npz" afterPath="$PROJECT_DIR$/honrc/test.npz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/honrc/train.npz" afterPath="$PROJECT_DIR$/honrc/train.npz" />
     </list>
     <ignored path="machineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,25 +54,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="performanceOfTestDataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/honrc/regression/performanceOfTestDataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/honrc/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="274">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
-                <element signature="e#86#131#0" expanded="true" />
+                <element signature="e#84#129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,23 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extractDataFromMongoDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/honrc/regression/extractDataFromMongoDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KNN_Check.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/honrc/K_nearest_neighbors/KNN_Check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3525">
-              <caret line="141" column="16" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="16" />
+            <state relative-caret-position="174">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -131,11 +110,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/honrc/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RandomForest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/honrc/RandomForest_Ensemble/RandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -146,8 +135,8 @@
       <file leaf-file-name="RF_check.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/honrc/RandomForest_Ensemble/RF_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4850">
-              <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
+            <state relative-caret-position="4800">
+              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -155,11 +144,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test.npz" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/honrc/test.npz">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="train_evaluate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/honrc/K_nearest_neighbors/train_evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -817,14 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/honrc/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/honrc/regression/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -839,16 +830,6 @@
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/honrc/regression/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,10 +870,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/honrc/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/honrc/K_nearest_neighbors/train_evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -901,40 +890,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/honrc/K_nearest_neighbors/KNN_Check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3525">
-          <caret line="141" column="16" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="16" />
+        <state relative-caret-position="174">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/honrc/RandomForest_Ensemble/RF_check.py">
+    <entry file="file://$PROJECT_DIR$/honrc/test.npz">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4850">
-          <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/honrc/RandomForest_Ensemble/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/honrc/RandomForest_Ensemble/RF_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/honrc/regression/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/honrc/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="274">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <element signature="e#86#131#0" expanded="true" />
+            <element signature="e#84#129#0" expanded="true" />
           </folding>
         </state>
       </provider>

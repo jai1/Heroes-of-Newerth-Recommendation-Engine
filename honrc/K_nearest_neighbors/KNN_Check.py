@@ -2,8 +2,6 @@ from multiprocessing import Pool, TimeoutError
 import os
 import time
 import pickle
-from plistlib import Data
-from reportlab.graphics.samples.scatter import Scatter
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -16,6 +14,22 @@ NUM_HEROES = 249
 NUM_FEATURES = NUM_HEROES*2
 percent_val = 100
 model = None
+
+X1 = None
+X2 = None
+X3 = None
+X4 = None
+X5 = None
+Y1 = None
+Y2 = None
+Y3 = None
+Y4 = None
+Y5 = None
+NUM_MATCHES_1 = None
+NUM_MATCHES_2 = None
+NUM_MATCHES_3 = None
+NUM_MATCHES_4 = None
+NUM_MATCHES_5 = None
 
 ## Calculates the distance between two vectors
 def my_distance(vec1,vec2):
@@ -58,7 +72,7 @@ def final_run(X_val,Y_val, num_matches):
 
         ## correct prediction increases based on result
         correct_predictions += result
-        print "Current loop ended i-> ",i,"correct predictions",correct_predictions
+        print("Current loop ended i-> ",i,"correct predictions",correct_predictions)
         # print "Time till now", (time.time() - start_time)
         if (i+1)%200 ==0:
             current_accuracy = (correct_predictions/((i+1)*1.0)) * percent_val
@@ -121,10 +135,10 @@ def run():
     accuracy = (sum_correct_prediction/(len(X)*1.0)) * 100
     # pool.close()
     # pool.join()
-    print "final correct predictions:",final_correct_predictions
-    print "total correct predictions:",sum_correct_prediction
-    print "accuracy:", accuracy
-    print "Time Taken in seconds ", (time.time() - start_time)
+    print("final correct predictions:",final_correct_predictions)
+    print("total correct predictions:",sum_correct_prediction)
+    print("accuracy:", accuracy)
+    print("Time Taken in seconds ", (time.time() - start_time))
 
     # print "acc",accuracy_list,"total_element",total_elements_list
     # plt.plot(total_elements_list, accuracy_list)
@@ -138,9 +152,9 @@ if __name__ == '__main__':
     with open('evaluate_model_37782.pkl', 'r') as input_file:
         model = pickle.load(input_file)
     # Import the test x matrix and Y vector
-    print "before this?"
+    print("before this?")
     preprocessed = np.load('test.npz')
-    print "after this?"
+    print("after this?")
     X = preprocessed['X']
     Y = preprocessed['Y']
     # print len(X)
@@ -181,5 +195,5 @@ if __name__ == '__main__':
     NUM_MATCHES_5 = len(X5)
 
     NUM_MATCHES = len(X)
-    print "NUmMatches", NUM_MATCHES
+    print("NUmMatches", NUM_MATCHES)
     run()
